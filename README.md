@@ -1,6 +1,8 @@
 boguskeys
 =========
 
+[![Project Status: Unsupported - The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/0.1.0/unsupported.svg)](http://www.repostatus.org/#unsupported)
+
 GitHub's SSH key handling is awful. A key that GitHub knows about *anywhere*
 can get SSH access. To do a read-only git clone over SSH (i.e. if you're cloning
 a public repo and its submodules have git@github.com URLS), your user's SSH key
